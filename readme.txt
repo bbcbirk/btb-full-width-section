@@ -1,5 +1,6 @@
 === BTB Full Width Section ===
 Contributors: birkblauner
+Donate link: https://wordpressfoundation.org/donate/
 Tags: block, design
 Requires at least: 6.0
 Tested up to: 6.0
