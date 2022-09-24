@@ -6,7 +6,7 @@
 	"category": "design",
 	"description": "Full width container with a background color or image.",
 	"keywords": [ "container", "wrapper", "row", "section" ],
-	"version": "1.0.0",
+	"version": "v2.0.0",
 	"textdomain": "btb-full-width-section",
 	"attributes": {
 		"tagName": {

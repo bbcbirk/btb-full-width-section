@@ -1,8 +1,8 @@
 {
 	"name": "btb-full-width-section",
-	"version": "1.0.0",
+	"version": "v2.0.0",
 	"description": "Full width Section block.",
-	"author": "Birk Thestrup Blauner",
+	"author": "birkblauner",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {
