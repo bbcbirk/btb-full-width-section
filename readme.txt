@@ -1,10 +1,12 @@
 === BTB Full Width Section ===
-Contributors:      Birk Thestrup Blauner
-Tags:              block
-Tested up to:      6.0
-Stable tag:        1.0.0
-License:           GPL-2.0-or-later
-License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+Contributors: birkblauner
+Tags: block, design
+Requires at least: 6.0
+Tested up to: 6.0
+Stable tag: v2.0
+Requires PHP: 7.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Full width Section block.
 
@@ -12,7 +14,7 @@ Full width Section block.
 
 A Full width Section block with background color or image. 
 
-With image background can paralax effect enables and overlay enables for easier text read. 
+With image background can paralax effect enables and overlay enables for easier text read.
 
 == Installation ==
 
@@ -23,9 +25,30 @@ e.g.
 1. Upload the plugin files to the `/wp-content/plugins/btb-full-width-section` directory, or install the plugin through the WordPress plugins screen directly.
 1. Activate the plugin through the 'Plugins' screen in WordPress
 
-
 == Frequently Asked Questions ==
 
-= Is this cool =
+= Can I customize sizing of the inner content width? =
 
-Yes it is.
+Yes. There are custom variables on the block that defines the width and padding. 
+Overwrite the following variables in your style.css
+`.wp-block-btb-full-width-section` - The container class 
+`--content-size` - The content size. Default is `650px` 
+`--wide-size` - The wide content size. Default is `1000px` 
+`--block-gap` - The gap between blocks. Default is `var(--wp--style--block-gap, 1.5rem)` 
+`--outer-spacing` - The padding of the sides. Default is `max(1.25rem, 5vw)`
+
+== Screenshots ==
+
+1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Screenshots are stored in the /assets directory.
+2. This is the second screen shot
+
+== Changelog ==
+
+= v2.0 =
+* Danish Translations
+* Added CSS variables for easier adaptation in themes
+
+= v1.0 =
+* Initial plugin
+
+== Upgrade Notice ==

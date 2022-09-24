@@ -1,18 +1,21 @@
 /**
  * The following styles get applied both on the front of your site
  * and in the editor.
- *
- * Replace them with your own styles or remove the file completely.
  */
 
 div.wp-block-btb-full-width-section {
-	padding-block-start: var(--wp--style--block-gap);
-	padding-block-end: var(--wp--style--block-gap);
-	padding-left: var(--wp--custom--spacing--outer);
-	padding-right: var(--wp--custom--spacing--outer);
+	--content-size: 650px;
+	--wide-size: 1000px;
+	--block-gap: var(--wp--style--block-gap, 1.5rem);
+	--outer-spacing: max(1.25rem, 5vw);
+
+	padding-block-start: var(--block-gap);
+	padding-block-end: var(--block-gap);
+	padding-left: var(--outer-spacing);
+	padding-right: var(--outer-spacing);
 
 	> :where(:not(.alignleft):not(.alignright)) {
-		max-width: 650px;
+		max-width: var(--content-size);
 		margin-left: auto !important;
 		margin-right: auto !important;
 	}
@@ -23,14 +26,14 @@ div.wp-block-btb-full-width-section {
 	}
 
 	> * + * {
-		margin-block-start: var(--wp--style--block-gap);
+		margin-block-start: var(--block-gap);
 		margin-block-end: 0;
 	}
 
 	> .alignleft {
 		float: left;
 		margin-inline-start: 0;
-		margin-inline-end: 2em;
+		margin-inline-end: var(--outer-spacing);
 	}
 
 	> .aligncenter {
@@ -40,12 +43,12 @@ div.wp-block-btb-full-width-section {
 
 	> .alignright {
 		float: right;
-		margin-inline-start: 2em;
+		margin-inline-start: var(--outer-spacing);
 		margin-inline-end: 0;
 	}
 
 	> .alignwide {
-		max-width: 1000px;
+		max-width: var(--wide-size);
 	}
 
 	> .alignfull {
