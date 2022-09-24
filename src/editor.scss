@@ -1,0 +1,52 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-btb-full-width-section {
+	padding-left: var(--wp--custom--spacing--outer);
+	padding-right: var(--wp--custom--spacing--outer);
+
+	&:hover {
+		border: 4px dashed #555;
+	}
+
+	&:focus-within {
+		border: none;
+	}
+
+	&.with-background-image {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+		&.with-overlay {
+			isolation: isolate;
+			position: relative;
+
+			&::after {
+				content: "";
+				position: absolute;
+				inset: 0;
+				background: hsla(0deg, 0%, 0%, 0.5);
+				z-index: -1;
+			}
+		}
+	}
+}
+
+.wp-block-btb-full-width-section-example-image {
+	display: block;
+
+	.components-spinner {
+		margin: 0;
+		float: none;
+	}
+
+	// Space consecutive buttons evenly.
+	.components-button + .components-button {
+		margin-top: 1em;
+		margin-right: 8px;
+	}
+}
