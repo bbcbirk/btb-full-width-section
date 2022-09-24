@@ -51,3 +51,6 @@ Overwrite the following variables in your style.css
 * Initial plugin
 
 == Upgrade Notice ==
+
+= v2.0 =
+This version contains translations fixes and css variables for theme customization.
