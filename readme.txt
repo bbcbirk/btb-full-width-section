@@ -44,14 +44,14 @@ Overwrite the following variables in your style.css
 
 == Changelog ==
 
-= v2.0 =
+= 2.0 =
 * Danish Translations
 * Added CSS variables for easier adaptation in themes
 
-= v1.0 =
+= 1.0 =
 * Initial plugin
 
 == Upgrade Notice ==
 
-= v2.0 =
+= 2.0 =
 This version contains translations fixes and css variables for theme customization.
