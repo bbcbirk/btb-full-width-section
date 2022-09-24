@@ -39,8 +39,7 @@ Overwrite the following variables in your style.css
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Screenshots are stored in the /assets directory.
-2. This is the second screen shot
+1. A full width section with a frog image and a full width section with a red background.
 
 == Changelog ==
 
