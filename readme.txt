@@ -1,4 +1,4 @@
-=== Btb Full Width Section ===
+=== BTB Full Width Section ===
 Contributors:      Birk Thestrup Blauner
 Tags:              block
 Tested up to:      6.0

@@ -25,3 +25,12 @@ function create_block_btb_full_width_section_block_init() {
 }
 
 add_action( 'init', 'create_block_btb_full_width_section_block_init' );
+
+/**
+ * Set block translations
+ */
+function btb_full_width_section_block_translations() {
+	wp_set_script_translations( 'btb-full-width-section-js', 'btb-full-width-section', plugin_dir_path( __FILE__ ) . 'languages' );
+}
+
+add_action( 'init', 'btb_full_width_section_block_translations' );
